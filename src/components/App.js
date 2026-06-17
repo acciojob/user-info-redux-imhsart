@@ -16,8 +16,10 @@ const App = () => {
         </form>
         <p>Current values in store:</p>
         <div className="output">
-          <p>Name - {name}</p>
-          <p>Name - {email}</p>
+          <p>Name - {name}</p>         
+        </div>
+        <div className="output">
+           <p>Name - {email}</p>
         </div>
     </div>
   )
